@@ -1,0 +1,119 @@
+{
+    "version_of_portlet_description": 0.2,
+    "tabs": ["Virtual Hardware", "Galaxy Configuration"],
+    "parameters": [
+    {
+        "display": "Maximum number of WNs in the elastic cluster",
+        "name": "wn_num",
+        "type": "list",
+        "value": [
+            1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+            ],
+        "tab": 0
+    },
+    {
+        "display": "Numer of CPUs for the front-end node",
+        "name": "fe_cpus",
+        "type": "list",
+        "value": [
+            1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+            ],
+        "tab": 0
+    },
+    {
+        "display": "Amount of Memory for the front-end node",
+        "name": "fe_mem",
+        "type": "list",
+        "value": [
+            "1 GB",
+        "2 GB",
+        "4 GB",
+        "8 GB",
+        "16 GB",
+        "32 GB"
+            ],
+        "tab": 0
+    },
+    {
+        "display": "Numer of CPUs for the WNs",
+        "name": "wn_cpus",
+        "type": "list",
+        "value": [
+            1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+            ],
+        "tab": 0
+    },
+    {
+        "display": "Amount of Memory for the WNs",
+        "name": "wn_mem",
+        "type": "list",
+        "value": [
+            "1 GB",
+        "2 GB",
+        "4 GB",
+        "8 GB",
+        "16 GB",
+        "32 GB"
+            ],
+        "tab": 0
+    },
+    {
+        "display": "Galaxy administrator mail address",
+        "name": "admin_email",
+        "type": "text",
+        "value": "admin mail address",
+        "tab": 1
+    },
+    {
+        "display": "Key to access the API with admin role",
+        "name": "admin_api_key",
+        "type": "text",
+        "value": "your API key",
+        "tab": 1
+    },
+    {
+        "display": "SSH public key",
+        "name": "instance_key_pub",
+        "type": "text",
+        "value": "Paste here your public key",
+        "tab": 1
+    },
+    {
+        "display": "Galaxy version",
+        "name": "version",
+        "type": "list",
+        "value": [
+            "master"
+            ],
+        "tab": 1
+    },
+    {
+        "display": "Instance description (Galaxy brand)",
+        "name": "instance_description",
+        "type": "text",
+        "value": "ELIXIR-ITA Galaxy test",
+        "tab": 1
+    }
+    ]
+}

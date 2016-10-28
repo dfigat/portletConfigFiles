@@ -9,6 +9,14 @@
         "display": "Galaxy"
     },
     {
+        "id": 105,
+        "app": "toscaGalaxyElasticClusterTest",
+        "file": "galaxy-elastic-cluster-template.json",
+        "path": "/home/futuregateway/FutureGateway/fgAPIServer/apps/toscaGalaxyElasticClusterTest/",
+        "name": "galaxyElasticCluster",
+        "display": "GalaxyElasticCluster"
+    },
+    {
         "id": 104,
         "app": "toscaOnecloudTest",
         "file": "lifewatch-template.json",
