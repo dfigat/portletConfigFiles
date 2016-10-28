@@ -1,36 +1,36 @@
 {
-    "apps": [
+  "apps": [
     {
-        "id": 103,
-        "app": "toscaGalaxyTest",
-        "file": "galaxy-template.json",
-        "path": "/home/futuregateway/FutureGateway/fgAPIServer/apps/toscaGalaxyTest/",
-        "name": "galaxy",
-        "display": "Galaxy"
+      "display": "Galaxy",
+      "name": "galaxy",
+      "path": "/home/futuregateway/FutureGateway/fgAPIServer/apps/toscaGalaxyTest/",
+      "file": "galaxy-template.json",
+      "app": "toscaGalaxyTest",
+      "id": 103
     },
     {
-        "id": 105,
-        "app": "toscaGalaxyElasticClusterTest",
-        "file": "galaxy-elastic-cluster-template.json",
-        "path": "/home/futuregateway/FutureGateway/fgAPIServer/apps/toscaGalaxyElasticClusterTest/",
-        "name": "galaxyElasticCluster",
-        "display": "GalaxyElasticCluster"
+      "display": "GalaxyElasticCluster",
+      "name": "galaxyElasticCluster",
+      "path": "/home/futuregateway/FutureGateway/fgAPIServer/apps/toscaGalaxyElasticClusterTest/",
+      "file": "galaxy-elastic-cluster-template.json",
+      "app": "toscaGalaxyElasticClusterTest",
+      "id": 105
     },
     {
-        "id": 104,
-        "app": "toscaOnecloudTest",
-        "file": "lifewatch-template.json",
-        "path": "/home/futuregateway/FutureGateway/fgAPIServer/apps/toscaOnecloudTest/",
-        "name": "lifewatch",
-        "display": "LifeWatch"
+      "display": "LifeWatch",
+      "name": "lifewatch",
+      "path": "/home/futuregateway/FutureGateway/fgAPIServer/apps/toscaOnecloudTest/",
+      "file": "lifewatch-template.json",
+      "app": "toscaOnecloudTest",
+      "id": 104
     },
     {
-        "id": 102,
-        "app": "toscaIDCTest",
-        "file": null,
-        "path": "/home/futuregateway/FutureGateway/fgAPIServer/apps/toscaIDCTest/",
-        "name": "idc",
-        "display": "ToscaIDC"
+      "display": "ToscaIDC",
+      "name": "idc",
+      "path": "/home/futuregateway/FutureGateway/fgAPIServer/apps/toscaIDCTest/",
+      "file": null,
+      "app": "toscaIDCTest",
+      "id": 102
     }
-    ]
+  ]
 }
